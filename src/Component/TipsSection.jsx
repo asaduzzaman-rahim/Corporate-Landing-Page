@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import Flex from './Flex'
+// import Grid from './Grid'
 
 import TipsImg1 from "../assets/Tips-Section (1).png"
 import TipsImg2 from "../assets/Tips-Section (2).png"
@@ -12,7 +13,7 @@ const TipsSection = () => {
     <>
       <Container >
         <PropAnimation>
-          <Flex className="justify-between gap-[30px]">
+          <Flex className="justify-between flex-wrap gap-5 mx-auto ">
               <div>
                 <img src={TipsImg1} alt="Tips Image 01" />
               </div>

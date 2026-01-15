@@ -15,7 +15,7 @@ const FooterSection = () => {
     <>
         <footer>
             <Container>
-                <Grid className="  grid-cols-6 ">
+                <Grid className="  lg:grid-cols-6 sm:grid-cols-2 mx-auto">
                     <div className='col-span-2 w-[260px]'>
                         <img className='w-[208px]' src={logo} alt="Footer-Logo" />
                         <p className='mt-[15px] mb-[32px] text-[16px] font-[400] leading-[28px]'>
