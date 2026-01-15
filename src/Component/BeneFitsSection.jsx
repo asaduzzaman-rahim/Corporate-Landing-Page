@@ -13,7 +13,7 @@ const BeneFitsSection = () => {
   return (
     <>
       <Container>
-        <div className="grid justify-center lg:grid-cols-3">
+        <div className="grid justify-center items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <BeneFitsCart
                 img={CardImg1}
                 tittle='We’re unbiased'

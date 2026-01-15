@@ -1,7 +1,8 @@
 import React from 'react'
 import Container from './Container'
-import Flex from './Flex'
 import TestimonialCart from './TestimonialCart'
+import Flex from './Flex';
+// import Grid from './Grid';
 import Slider from "react-slick";
 
 import Clint1 from "../assets/Clint1.png"
@@ -24,7 +25,7 @@ function TestimonialSectionCart() {
 
   return (
     <Container>
-            <Flex>
+            <Flex className="flex-wrap">
                 <TestimonialCart
                     ClintTittle="I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality."
                     ClintPhoto={Clint1}

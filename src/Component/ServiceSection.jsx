@@ -10,7 +10,7 @@ const ServiceSection = () => {
   return (
     <>
         <Container>
-            <Grid  className="justify-center gap-[30px] md:grid-cols-2 lg:grid-cols-3 ">
+            <Grid  className="justify-center gap-[30px] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
                 <ServicePart
                 img={SImg1}
                 tittle='Home insurance'
