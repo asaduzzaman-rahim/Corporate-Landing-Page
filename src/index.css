@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
+@utility container {
+  margin-inline: auto;
+}
 
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 990px;
+  --breakpoint-xl: 1170px;
+}
 *{
     font-family: "Open Sans", sans-serif;
 }
